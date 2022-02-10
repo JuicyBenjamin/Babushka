@@ -1,6 +1,23 @@
 img {
   width: 100%;
+  border-radius: 5px;
+}
+
+body {
+  background-color: #ccc;
+}
+
+.card {
+  background-color: aliceblue;
+  padding: 20px;
+  border-radius: 10px;
 }
 
 @media (min-width: 600px) {
+  main {
+    max-width: 1200px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
 }
