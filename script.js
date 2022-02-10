@@ -25,9 +25,9 @@ function formatering(json) {
     img.alt = element.billednavn;
     card.appendChild(img);
 
-    //     const name = document.createElement("h2");
-    //     name.textContent = `${element.fornavn} ${element.efternavn}`;
-    //     card.appendChild(name);
+    const name = document.createElement("h2");
+    name.textContent = element.navn;
+    card.appendChild(name);
 
     //     const mail = document.createElement("a");
     //     mail.href = "mailto:" + element.email;
