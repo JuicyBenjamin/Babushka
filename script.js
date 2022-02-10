@@ -29,6 +29,10 @@ function formatering(json) {
     name.textContent = element.navn;
     card.appendChild(name);
 
+    const kortbesk = document.createElement("p");
+    kortbesk.textContent = element.kortbeskrivelse;
+    card.appendChild(kortbesk);
+
     //     const mail = document.createElement("a");
     //     mail.href = "mailto:" + element.email;
     //     mail.textContent = element.email;
